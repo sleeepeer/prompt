@@ -12,11 +12,11 @@
 
 * **AutoLR: Layer-wise Pruning and Auto-tuning of Learning Rates in Fine-tuning of Deep Networks**	[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/16350)
 
-​		之前你给我那篇，里面提了浅/深层general/specific的问题，引出了以下两篇讨论这个的文章
+  之前你给我那篇，里面提了浅/深层general/specific的问题，引出了以下两篇讨论这个的文章
 
 * **How transferable are features in deep neural networks?**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
-
-
+ 
+  量化了general和specific，讨论了转移过程（在哪些层）
 
 * **Visualizing and Understanding Convolutional Networks**	[pdf](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_53)
 
