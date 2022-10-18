@@ -1,7 +1,5 @@
 ## Auto-LR
 
-这个里面提了一个contradict后两篇！在细看中。。。
-
 > paper：AutoLR: Layer-wise Pruning and Auto-tuning of Learning Rates in Fine-tuning of Deep Networks
 >
 > author：Youngmin Ro1,2 Jin Young Choi1
