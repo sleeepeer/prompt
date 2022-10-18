@@ -8,7 +8,7 @@
 
 
 
-## survey1 浅层基础特征，深层具体特征
+## survey1 低层general，高层specific
 
 * **AutoLR: Layer-wise Pruning and Auto-tuning of Learning Rates in Fine-tuning of Deep Networks**	[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/16350)
 
