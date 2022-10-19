@@ -57,4 +57,30 @@
 
 
 
-## Visualizing and Understanding Convolutional Networks
+
+
+## Visualizing Features + DCNN反卷积网络
+
+> paper：Visualizing and Understanding Convolutional Networks
+>
+> author：Matthew D. Zeiler and Rob Fergus
+>
+> code：[kvfrans/feature-visualization: tensorflow example of visualizing features from a convnet (github.com)](https://github.com/kvfrans/feature-visualization)  （博客复现版）
+>
+> ---
+>
+> main：可视化CNN各层参数的演变过程，（每一层学到了哪些特征）
+>
+> ​		主要是实现过程：反卷积网络DCNN = 反池化 + 反激活 + 反卷积可视化CNN
+>
+> point：**对解释general/specific有帮助**：
+>
+> ​		*从layer 1、layer 2学习到的特征基本上是颜色、边缘等低层特征；layer 3则开始稍微变得复杂，学习到的是纹理特征，比如上面的一些网格纹理；layer 4学习到的则是比较有区别性的特征，比如狗头；layer 5学习到的则是完整的，具有辨别性关键特征。*
+>
+> 相关博客：
+>
+> * [(96条消息) 深度学习（二十七）可视化理解卷积神经网络_hjimce的博客-CSDN博客_可视化理解卷积神经网络](https://blog.csdn.net/hjimce/article/details/50544370)
+>
+> * [Visualizing Features from a Convolutional Neural Network (kvfrans.com)](https://kvfrans.com/visualizing-features-from-a-convolutional-neural-network/)
+>
+> <img src="survey1.assets/20160119194801423.png" style="zoom: 67%;" />

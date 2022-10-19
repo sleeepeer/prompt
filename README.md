@@ -15,8 +15,8 @@
   之前你给我那篇，里面提了浅/深层general/specific的问题，引出了以下两篇讨论这个的文章 10.18
 
 * **How transferable are features in deep neural networks?**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
- 
-  量化了general和specific，讨论了转移过程（在哪些层） 10.18
+
+  量化了general和specific，讨论了转移过程（在哪些层） ，也有固定浅层feature的做法 10.18
 
 * **Visualizing and Understanding Convolutional Networks**	[pdf](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_53)
 
@@ -24,12 +24,13 @@
 
 ## survey2 类似cache feature的工作
 
-
+* **（survey1）How transferable are features in deep neural networks?**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
+* 
 
 ## other
 
 * **Convolutional Neural Networks for Medical Image Analysis: Full Training or Fine Tuning?** 	[pdf](https://ieeexplore.ieee.org/abstract/document/7426826)
 
-​		只对深层做fine-tune
+​		Partial-tuning只对深层做fine-tune
 
 * 
