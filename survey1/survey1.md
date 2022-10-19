@@ -32,6 +32,8 @@
 
 
 
+
+
 ## transfer （NIPS 2014 talk）
 
 > homepage：[Jason Yosinski](https://yosinski.com/transfer)
@@ -54,6 +56,8 @@
 > conclusion：固定浅层参数（BnB和AnB）随着固定层数上升准确率下降很大，全局微调（BnB+和AnB+）性能一直优异
 >
 > <img src="survey1.assets/7691878-95b841d6760c76c0.webp" style="zoom: 67%;" />
+
+
 
 
 
