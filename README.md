@@ -20,7 +20,7 @@
 
 * **Visualizing and Understanding Convolutional Networks**	[pdf](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_53)
 
-​		可视化CNN各层学习到了哪些feature，实现上提出DCNN反卷积网络
+ 	可视化CNN各层学习到了哪些feature，实现上提出DCNN反卷积网络，对解释general/specific有帮助
 
 ## survey2 类似cache feature的工作
 
