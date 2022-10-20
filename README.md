@@ -20,12 +20,15 @@
 
 * **Visualizing and Understanding Convolutional Networks**	[pdf](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_53)
 
- 	可视化CNN各层学习到了哪些feature，实现上提出DCNN反卷积网络，对解释general/specific有帮助 10.19
+​		可视化CNN各层学习到了哪些feature，实现上提出DCNN反卷积网络，对解释general/specific有帮助 10.19
 
 ## survey2 类似cache feature的工作
 
 * **（survey1）How transferable are features in deep neural networks?**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
-* 
+
+* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241、
+
+	列了几篇DNN迁移学习好文，domain adaptaion好文
 
 ## other
 
