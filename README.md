@@ -34,7 +34,7 @@
 
 	提出incremental fine-tuning，从最后层开始依次递增做fine-tune
 
-* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241、
+* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241
 
   列了几篇DNN迁移学习好文，domain adaptaion好文
 
