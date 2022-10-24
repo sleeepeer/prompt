@@ -22,18 +22,32 @@
 
 ​		可视化CNN各层学习到了哪些feature，实现上提出DCNN反卷积网络，对解释general/specific有帮助 10.19
 
-## survey2 类似cache feature的工作
+* **From Generic to Specific Deep Representations for Visual Recognition**  [pdf](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2015/W03/html/Azizpour_From_Generic_to_2015_CVPR_paper.html)
+
+
+
+## survey2 类似cache feature的工作（transfer learning + prompt）
 
 * **（survey1）How transferable are features in deep neural networks?**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
 
-* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241、
-
-	列了几篇DNN迁移学习好文，domain adaptaion好文
-
-## other
-
 * **Convolutional Neural Networks for Medical Image Analysis: Full Training or Fine Tuning?** 	[pdf](https://ieeexplore.ieee.org/abstract/document/7426826)
 
-​		Partial-tuning只对深层做fine-tune
+	提出incremental fine-tuning，从最后层开始依次递增做fine-tune
+
+* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241、
+
+  列了几篇DNN迁移学习好文，domain adaptaion好文
+
+  ---
+
+  ### 待考察
+
+  * https://arxiv.org/abs/2210.00990
+  * https://arxiv.org/abs/2110.07904
+  * https://dl.acm.org/doi/abs/10.1145/3534678.3539249?casa_token=tdaVtTr9PmMAAAAA:4xBmXPrcvwAx4iCxaov2ZFSSNZcKhkzbLHX-5PxytYI4KHf3O5qmDKQsnX6hcOBwdWun5_dCbaUiwSk
+
+
+
+## other
 
 * 
