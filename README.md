@@ -37,12 +37,14 @@
   列了几篇DNN迁移学习，domain adaptaion论文
   
 * **SPoT: Better Frozen Model Adaptation through Soft Prompt Transfer**  [pdf](https://arxiv.org/pdf/2110.07904.pdf) 
-[【2021.10.17】SPoT：非常简单的prompt预训练方式+很好的task transfer效果 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/422472763)
+  [【2021.10.17】SPoT：非常简单的prompt预训练方式+很好的task transfer效果 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/422472763)
   通过上游任务学习到的prompt来初始化下游的任务prompt；量化了任务间的相似度
 
-* 
+* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241
 
-  ---
+  列了几篇DNN迁移学习，domain adaptaion论文
+
+---
 
   ### 待考察
 
