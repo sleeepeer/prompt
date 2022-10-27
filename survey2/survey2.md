@@ -35,3 +35,10 @@
 > 
 >![](survey2.assets/屏幕截图 2022-10-24 153055.png)
 
+
+
+## SPoT
+
+> paper：SPoT: Better Frozen Model Adaptation through Soft Prompt Transfer
+>
+> 这篇其实做的也是prompt pre-training的事情，并研究了prompt的pre-training怎么影响task的transfer。做法很简单，就是在pretraining LM和target task的prompt tuning之间，加了一个prompt pre-training。其实就是在许多source tasks（数据集）上训练一个或者多个prompt，然后用一个或者多个prompt去初始化target task的prompt，然后继续执行target task的prompt tuning。作者还研究了选择怎么样的source tasks更能帮助到target task，本质就是去衡量任务之间的相似度，所以就用source prompt embedding和target prompt embedding的相似度表示。整个实验在T5-base上实验，各种下游任务都被定义为text-to-text，证明了这种方式能够小模型在执行fixed LM+prompt tuning的条件下，也能逼近或者优于fine-tuning的结果，也证明了这种prompt transfer的方式的有效性。PPT也是做的预训练，不过问题就是需要手工设计各种符合下游形式的预训练任务，这篇就不需要，很神奇的一点还有，就算两种task在形式和输入输出上不一样，但是还能起到很好的transfer效果。

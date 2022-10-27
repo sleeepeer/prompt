@@ -28,15 +28,19 @@
 
 ## survey2 类似cache feature的工作（transfer learning + prompt）
 
-* **（survey1）How transferable are features in deep neural networks?**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
+* **How transferable are features in deep neural networks?（survey1）**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
 
 * **Convolutional Neural Networks for Medical Image Analysis: Full Training or Fine Tuning?** 	[pdf](https://ieeexplore.ieee.org/abstract/document/7426826)
-
 	提出incremental fine-tuning，从最后层开始依次递增做fine-tune
+	
+* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241
+  列了几篇DNN迁移学习，domain adaptaion论文
+  
+* **SPoT: Better Frozen Model Adaptation through Soft Prompt Transfer**  [pdf](https://arxiv.org/pdf/2110.07904.pdf) 
+[【2021.10.17】SPoT：非常简单的prompt预训练方式+很好的task transfer效果 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/422472763)
+  通过上游任务学习到的prompt来初始化下游的任务prompt；量化了任务间的相似度
 
-* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241、
-
-  列了几篇DNN迁移学习好文，domain adaptaion好文
+* 
 
   ---
 
@@ -44,10 +48,14 @@
 
   * https://arxiv.org/abs/2210.00990
   * https://arxiv.org/abs/2110.07904
-  * https://dl.acm.org/doi/abs/10.1145/3534678.3539249?casa_token=tdaVtTr9PmMAAAAA:4xBmXPrcvwAx4iCxaov2ZFSSNZcKhkzbLHX-5PxytYI4KHf3O5qmDKQsnX6hcOBwdWun5_dCbaUiwSk
+  * 小综述 [Prompt Tuning 近期研究进展 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/422921903)
 
 
 
 ## other
 
-* 
+* prompt概述与论文资源 [近代自然语言处理技术发展的“第四范式” - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/395115779)
+* [pfliu-nlp/NLPedia-Pretrain (github.com)](https://github.com/pfliu-nlp/NLPedia-Pretrain)
+* prompt鲁棒性研究 [2110.07280.pdf (arxiv.org)](https://arxiv.org/pdf/2110.07280.pdf)
+
+* colab教程[Colab使用教程（超级详细版）及Colab Pro/Pro+评测 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/527663163)

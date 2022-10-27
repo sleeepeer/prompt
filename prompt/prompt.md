@@ -14,3 +14,12 @@ Template和Verbalizer
 
 这周内看下promptbert并跑一下代码
 
+prompt鲁棒性和迁移学习  https://zhuanlan.zhihu.com/p/422921903
+
+
+
+10.25 看博客和视频  https://wmathor.com/index.php/archives/1587/
+
+10.27 把博客看完看一篇论文，考察abstract看完
+
+​		懂了是啥但还是模糊
