@@ -8,6 +8,10 @@
 
 
 
+11.1 最近在看一些pytorch和huggingface的简单的代码，已上传到code文件夹
+
+
+
 ## survey1 低层general，高层specific
 
 * **AutoLR: Layer-wise Pruning and Auto-tuning of Learning Rates in Fine-tuning of Deep Networks**	[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/16350)
@@ -29,20 +33,13 @@
 ## survey2 类似cache feature的工作（transfer learning + prompt）
 
 * **How transferable are features in deep neural networks?（survey1）**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
-
 * **Convolutional Neural Networks for Medical Image Analysis: Full Training or Fine Tuning?** 	[pdf](https://ieeexplore.ieee.org/abstract/document/7426826)
 	提出incremental fine-tuning，从最后层开始依次递增做fine-tune
-	
 * **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241
   列了几篇DNN迁移学习，domain adaptaion论文
-  
 * **SPoT: Better Frozen Model Adaptation through Soft Prompt Transfer**  [pdf](https://arxiv.org/pdf/2110.07904.pdf) 
   [【2021.10.17】SPoT：非常简单的prompt预训练方式+很好的task transfer效果 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/422472763)
   通过上游任务学习到的prompt来初始化下游的任务prompt；量化了任务间的相似度
-
-* **迁移学习transfer learning博客** https://www.zhihu.com/question/41979241
-
-  列了几篇DNN迁移学习，domain adaptaion论文
 
 ---
 

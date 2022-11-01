@@ -23,7 +23,7 @@
 > main：
 >
 > * 对几个不同的医学cv任务，从只微调最高层开始递增（incremental fine-tuning），发现**不同任务需要微调的程度不同**，**全量微调不一定比只微调部分层效果好**。
-> * 微调程度还与可用于训练的数据量有关（training data）；training data大的时候 *全量微调 > full train > 浅微调* ，随着data量变小，全量微调比full train会越来越好
+> * 微调程度还与可用于训练的数据量有关（training data）；training data大的时候 *全量微调 > full train > 浅微调* ，随着data量变小，全量微调比full train会越来越好(训练数据太少)
 > * 全量微调的收敛速度（convergence speed）比full train一个CNN更快
 >
 > point：

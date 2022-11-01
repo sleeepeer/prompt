@@ -23,3 +23,29 @@ prompt鲁棒性和迁移学习  https://zhuanlan.zhihu.com/p/422921903
 10.27 把博客看完看一篇论文，考察abstract看完
 
 ​		懂了是啥但还是模糊
+
+
+
+## 总结
+
+1、讲survey1的三篇，survey2一篇半，重点是transfer和CNN
+
+2、讲搜集的一些博客和还没看的几篇
+
+
+
+
+
+
+
+10.31 看一下BERT，等会看看代码
+
+11.1 学一下huggingface的API，配置好环境
+
+## PromptBERT
+
+> paper: PromptBERT: Improving BERT Sentence Embeddings with Prompts
+>
+> author: Ting Jiang1, Shaohan Huang, Zihan Zhang, Deqing Wang, Fuzhen Zhuang , Furu Wei, Haizhen Huang, Liangjie Zhang , Qi Zhang
+>
+> institute: Beihang University, Microsoft
