@@ -16,7 +16,7 @@
 
 * **AutoLR: Layer-wise Pruning and Auto-tuning of Learning Rates in Fine-tuning of Deep Networks**	[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/16350)
 
-  之前你给我那篇，里面提了浅/深层general/specific的问题，引出了以下两篇讨论这个的文章 10.18
+  随层数自适应更新学习率，里面提了浅/深层general/specific的问题，引出了以下两篇讨论这个的文章 10.18
 
 * **How transferable are features in deep neural networks?**	[pdf](https://proceedings.neurips.cc/paper/2014/hash/375c71349b295fbe2dcdca9206f20a06-Abstract.html)
 
@@ -58,3 +58,5 @@
 * prompt鲁棒性研究 [2110.07280.pdf (arxiv.org)](https://arxiv.org/pdf/2110.07280.pdf)
 
 * colab教程[Colab使用教程（超级详细版）及Colab Pro/Pro+评测 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/527663163)
+
+
